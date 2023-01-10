@@ -1,0 +1,104 @@
+/* Google Font Import - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* { 
+         margin: 0; 
+         padding: 0; 
+         box-sizing: border-box; 
+}
+
+.bg {
+  background: #3a3a3a;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+/* Imagen y nombre */
+.Logo {
+  align-items: center;
+  position: center;
+  justify-content: center;
+  display: flex;
+
+}
+
+.logo {
+  position: center;
+  height: 200px;
+  width: 200px;
+  margin: 20;
+  border-radius: 20%;
+}
+
+
+.Name {
+  display: flex;
+  justify-content: center;
+  position: center;
+  margin: 15;
+}
+
+/* Contenido y descripción */
+
+
+
+.boton {
+  width: 100px;
+  height: 40px;
+  border-radius: 15%;
+  border: transparent;
+}
+
+@media (min-width: 750px) {
+  .boton{
+    width: 250px;
+    height: 80px
+
+
+  }
+}
+
+.Texto{
+  display: flex;
+  justify-content: center;
+  position: center;
+  margin-top: 15px;
+}
+
+p {
+  width: 50%;
+  margin-left: 25%
+}
+
+
+footer{
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end
+}
+
+.Info-Name {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-left: 15px
+}
+
+.Info-P {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  margin-left: 0px
+
+
+
+.Image {
+  align-items: flex-end;
+}
+
+
+
+
+
+
+
